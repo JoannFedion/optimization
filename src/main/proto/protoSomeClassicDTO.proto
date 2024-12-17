@@ -1,0 +1,13 @@
+syntax = "proto3";
+package ru.bit.proto;
+
+option java_outer_classname = "SomeClassicDTO";
+
+
+message protoSomeClassicDTO {
+  string someClassicStringField = 1;
+  int32 someClassicIntField = 2;
+  double someClassicDoubleField = 3;
+  float someClassicFloatField = 4;
+  bool someClassicBooleanField = 5;
+}
